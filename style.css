@@ -1,79 +1,146 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Livraison de produits frais</title>
-	<link rel="stylesheet" href="style.css">
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-</head>
-<body>
-	<header>
-		</nav>
-		<div class="hero">
-			<h1>Albertfrais</h1>
-			<h4>Commandez en ligne et faites-vous livrer des produits frais à domicile en quelques minutes</h4>
-		</div>
-		<nav>
-			<ul>
-				<li><a href="#">Accueil</a></li>
-				<li><a href="#">Commander</a></li>
-				<li><a href="#">Aide</a></li>
-				<li><a href="#">Inscription/Connexion</a></li>
-			</ul>
-	</header>
-	<main>
-		<section class="how-it-works">
-			<h2>Comment ça marche ?</h2>
-			<div class="steps">
-				<div>
-					<img src="recherche.jpg" alt="Recherche">
-					<p>1. Recherchez les produits que vous souhaitez commander</p>
-				</div>
-				<div>
-					<img src="livraison.jpg" alt="Paiement">
-					<p>2. Payez en ligne de manière sécurisée</p>
-				</div>
-				<div>
-					<img src="livraisonbis.jpg" alt="Livraison">
-					<p>3. Recevez votre commande à domicile en quelques minutes</p>
-				</div>
-			</div>
-		</section>
-		<section class="popular-products">
-			<h2>Nos produits les plus populaires</h2>
-			<div class="products">
-				<div>
-					<img src="saladedefruit.jpg" alt="Produit 1">
-					<h3>Salade de fruits frais</h3>
-					<p>Commandez notre délicieuse salade de fruits frais</p>
-				</div>
-				<div>
-					<img src="pizzaauxlégumes.jpeg" alt="Produit 2">
-					<h3>Pizza aux légumes</h3>
-					<p>Dégustez notre pizza aux légumes faite maison</p>
-				</div>
-				<div>
-					<img src="sushi.jpg" alt="Produit 3">
-					<h3>Sushi assortis</h3>
-					<p>Savourez notre sélection de sushi frais et variés</p>
-				</div>
-			</div>
-		</section>
-	</main>
-	<footer>
-		</nav>
-		<div class="hero">
-			<h1>Albertfrais</h1>
-			<h4>Service client 24/24 au 02.99.78.52.45</h4>
-		</div>
-		<nav>
-			<ul>
-				<li><a href="#">Accueil</a></li>
-				<li><a href="#">Commander</a></li>
-				<li><a href="#">Aide</a></li>
-				<li><a href="#">Inscription/Connexion</a></li>
-			</ul>
-    </footer>
-</body>
-</html>
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: skyblue;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 70px;
+}
+
+header h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+header h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 1rem;
+  color: black;
+}
+
+.how-it-works {
+  margin-top: 40px;
+  max-width: 1150px;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.steps div {
+  flex-basis: calc(33.33% - 1rem);
+}
+
+.steps img {
+  display: block;
+  margin-bottom: 100px;
+  margin: 30px;
+  width: 300px;
+  height: 200px;
+  align-content: center;
+}
+
+.popular-products {
+  max-width: 1150px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.products div {
+  flex-basis: calc(33.33% - 1rem);
+}
+
+.products img {
+  display: block;
+  width: 300px;
+  height: 200px;
+  margin: 30px;
+  margin-bottom: 20px;
+}
+
+.products h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.products p {
+  margin-top: 0.5rem;
+  color: black;
+}
+
+nav ul {
+	list-style-type: none;
+	color: white;
+	margin: 0;
+	display
+}
+
+nav ul a {
+	color: white;
+	font-family: 'Roboto', sans-serif;*
+
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: skyblue;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+}
+
+footer h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+footer h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
